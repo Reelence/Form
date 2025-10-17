@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>An Exclusive Invitation | Silvermax & Velora Luxe at Beautyworld Middle East</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Style for the background image */
+        .bg-hero {
+            background-image: url('https://images.unsplash.com/photo-1542648873-0e1cc91ea28f5?q=80&w=2574&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+        }
+        /* Using a local image for the background */
+        .bg-premium-pattern {
+            background-image: url('./form_bg.png');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-stone-300">
+
+    <div class="relative min-h-screen w-full bg-hero flex items-center justify-center p-4">
+        <!-- Light Overlay --><div class="absolute inset-0 bg-stone-200/30"></div>
+
+        <!-- Main Invitation Card --><div class="relative w-full max-w-3xl bg-premium-pattern backdrop-blur-xl rounded-2xl border border-stone-300/50 shadow-2xl overflow-hidden">
+            
+            <!-- Banner Image --><img src="./beautyworld-invitation-banner.png" alt="Beautyworld Middle East Invitation Banner" class="w-full h-auto">
+            
+            <div class="p-6 sm:p-10 text-center text-stone-800">
+                
+                <!-- Header --><h2 class="text-xl font-light text-stone-700 tracking-wider mb-2">
+                    You Are Cordially Invited To
+                </h2>
+                <h1 class="text-4xl sm:text-5xl font-bold text-stone-900 leading-tight mb-3">
+                    A Confluence of Craft & Beauty
+                </h1>
+                <p class="max-w-xl mx-auto text-stone-700 font-light mb-4">
+                    Join us for an exclusive preview of the latest innovations from two pioneering brands, setting new standards in grooming and luxury.
+                </p>
+
+                <!-- Ornate Divider -->
+                <div class="text-center my-4">
+                    <svg width="100" height="10" viewBox="0 0 100 10" xmlns="http://www.w3.org/2000/svg" class="inline-block text-amber-900/60">
+                        <line x1="0" y1="5" x2="42" y2="5" stroke="currentColor" stroke-width="1"></line>
+                        <circle cx="50" cy="5" r="2.5" fill="currentColor"></circle>
+                        <line x1="58" y1="5" x2="100" y2="5" stroke="currentColor" stroke-width="1"></line>
+                    </svg>
+                </div>
+
+                <!-- Brands Section --><div class="flex flex-col md:flex-row items-start justify-center gap-4 md:gap-8">
+                    <!-- SILVERMAX --><div class="text-center">
+                        <h3 class="text-3xl font-bold text-amber-900 tracking-wide">SILVERMAX</h3>
+                        <p class="text-stone-800 mt-2 text-sm font-light">Precision Shaving Razor Blades</p>
+                        <img src="./male_01.png" alt="Male grooming product" class="mt-4 mx-auto w-full max-w-xs object-contain">
+                    </div>
+
+                    <!-- Separator on Desktop --><div class="hidden md:block w-[1.5px] h-16 bg-amber-900/30 self-center"></div>
+
+                    <!-- VELORA LUXE --><div class="text-center">
+                        <h3 class="text-3xl font-bold text-amber-900 tracking-wide">VELORA LUXE</h3>
+                        <p class="text-stone-800 mt-2 text-sm font-light">100% Original Remy Human Hair</p>
+                        <img src="./female_01.png" alt="Female hair product" class="mt-4 mx-auto w-full max-w-xs object-contain">
+                    </div>
+                </div>
+
+                <!-- Ornate Divider -->
+                <div class="text-center my-2">
+                    <svg width="100" height="10" viewBox="0 0 100 10" xmlns="http://www.w3.org/2000/svg" class="inline-block text-amber-900/60">
+                        <line x1="0" y1="5" x2="42" y2="5" stroke="currentColor" stroke-width="1"></line>
+                        <circle cx="50" cy="5" r="2.5" fill="currentColor"></circle>
+                        <line x1="58" y1="5" x2="100" y2="5" stroke="currentColor" stroke-width="1"></line>
+                    </svg>
+                </div>
+
+                <!-- Register Button --><div class="mt-6">
+                    <button id="openModalBtn" class="bg-amber-800 text-white font-bold py-3 px-8 rounded-lg hover:bg-amber-700 transition-all duration-300 transform hover:scale-105">
+                        Register Your Interest
+                    </button>
+                </div>
+                
+                <!-- Footer --><p class="mt-4 text-xs text-stone-600 tracking-widest uppercase">
+                    At Beautyworld Middle East 2025
+                </p>
+                <p class="mt-2 text-lg font-bold text-stone-800">VERTICE GLOBAL</p>
+
+                <!-- Customer Care Section -->
+                <div class="mt-6 border-t border-amber-900/20 pt-4">
+                    <div class="flex flex-col sm:flex-row justify-center items-center gap-3 sm:gap-6 text-sm">
+                        <div class="font-semibold text-stone-700 tracking-wider">CUSTOMER CARE:</div>
+                        <div class="flex items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-amber-800" viewBox="0 0 20 20" fill="currentColor">
+                              <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.518.759a11.03 11.03 0 004.28 4.28l.759-1.518a1 1 0 011.06-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
+                            </svg>
+                            <a href="tel:+971529607401" class="text-stone-800 hover:text-amber-900 transition-colors">+971 52 960 7401</a>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-amber-800" viewBox="0 0 20 20" fill="currentColor">
+                              <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                              <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                            </svg>
+                            <a href="mailto:customercare@silvermaxarabia.com" class="text-stone-800 hover:text-amber-900 transition-colors">customercare@silvermaxarabia.com</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Registration Modal --><div id="registerModal" style="display: none;" class="fixed inset-0 bg-stone-900/70 backdrop-blur-sm flex items-center justify-center p-4 transition-opacity duration-300 ease-in-out">
+        <div class="bg-premium-pattern rounded-2xl shadow-2xl w-full max-w-md p-8 text-stone-800 relative">
+            <!-- Close Button --><button id="closeModalBtn" class="absolute top-4 right-4 text-stone-600 hover:text-stone-800 transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+            
+            <div id="formContainer">
+                <h2 class="text-2xl font-bold text-center mb-6">Register Your Interest</h2>
+                <form id="registrationForm" class="space-y-4">
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-stone-700 mb-2 text-left">Full Name</label>
+                        <input type="text" id="name" name="name" required class="w-full bg-amber-50/60 border border-stone-400 rounded-lg px-4 py-2 text-stone-900 focus:ring-2 focus:ring-amber-800 focus:outline-none">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-stone-700 mb-2 text-left">Email Address</label>
+                        <input type="email" id="email" name="email" required class="w-full bg-amber-50/60 border border-stone-400 rounded-lg px-4 py-2 text-stone-900 focus:ring-2 focus:ring-amber-800 focus:outline-none">
+                    </div>
+                    <div>
+                        <label for="company" class="block text-sm font-medium text-stone-700 mb-2 text-left">Company Name</label>
+                        <input type="text" id="company" name="company" class="w-full bg-amber-50/60 border border-stone-400 rounded-lg px-4 py-2 text-stone-900 focus:ring-2 focus:ring-amber-800 focus:outline-none">
+                    </div>
+                    <button type="submit" class="w-full bg-amber-800 text-white font-bold py-3 px-8 rounded-lg hover:bg-amber-700 transition-all duration-300 transform hover:scale-105 mt-6">
+                        Submit
+                    </button>
+                </form>
+            </div>
+
+            <!-- Success Message --><div id="successMessage" style="display: none;" class="text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto h-16 w-16 text-green-500" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                </svg>
+                <h3 class="mt-4 text-2xl font-bold text-green-600">Thank You!</h3>
+                <p class="text-stone-700 mt-2">Your registration has been received. We look forward to seeing you.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const registerModal = document.getElementById('registerModal');
+        const openModalBtn = document.getElementById('openModalBtn');
+        const closeModalBtn = document.getElementById('closeModalBtn');
+        const registrationForm = document.getElementById('registrationForm');
+        const successMessage = document.getElementById('successMessage');
+        const formContainer = document.getElementById('formContainer');
+
+        openModalBtn.addEventListener('click', () => {
+            registerModal.style.display = 'flex';
+        });
+
+        const closeModal = () => {
+            registerModal.style.display = 'none';
+            // Reset form for next time
+            setTimeout(() => {
+                formContainer.style.display = 'block';
+                successMessage.style.display = 'none';
+                registrationForm.reset();
+            }, 300); // delay to allow fade out
+        };
+
+        closeModalBtn.addEventListener('click', closeModal);
+        
+        registerModal.addEventListener('click', (e) => {
+            if (e.target === registerModal) {
+                closeModal();
+            }
+        });
+
+        registrationForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            // Here you would typically send the data to a server
+            console.log('Form submitted');
+            
+            formContainer.style.display = 'none';
+            successMessage.style.display = 'block';
+
+            setTimeout(() => {
+                closeModal();
+            }, 3000);
+        });
+    </script>
+</body>
+</html>
+
